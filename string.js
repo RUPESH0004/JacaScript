@@ -1,4 +1,4 @@
-let str = " hello-world "
+let str = "hello-world"
 console.log(str); // this is simply printing the string using the consoole.log 
 console.log(`this is my ${str}and concatinating my string `) // this is new mordern way of concatination using the backtick
 console.log(str.length) // to find the length of the string 

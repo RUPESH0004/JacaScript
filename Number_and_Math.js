@@ -6,7 +6,7 @@ let number = 100000000
 const price = new Number(399.3456)// this is nothing but the spceifieing the type of the veriabel useing new word with the dataType 
 score = new String(3000000)
 console.log(price) // output = [Number 399.3456]
-console.log(score) // output = [string'300']
+console.log(score) // output = [string'3000000']
 console.log(price.toFixed(2)) // to fixed method is used to fix the number after the decimal it will round of the number in this case we want only 2 digit after dicimal
 console.log(price.toPrecision(4)) // to precision is used to conatin the lengthe of the number means if i pass 4 now my number laength will be the 4 only like 399.3 this is precision 
 console.log(number.toLocaleString('en-IN'))// this is method is used to conbert normal number into the proper formate and tha parameter is for indin version

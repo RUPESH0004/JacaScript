@@ -1,0 +1,116 @@
+java script is server side and client side language or also know as scripting language for browser and its working on the latest standard ECMA 6 
+   java script Execuation context
+In java script we have to Execuation context 
+1.Global Execution contest 
+2.function Execution context 
+ java script is single threade language and all the program execuation happend in three phase 1. golbal execuation context 
+ 2.memory allocation phase 
+ 3.execution phase 
+ for execuation we will take one example 
+  let a = 3
+  let b = 5
+  function addNum (num1,num2){
+   return num1+num2
+  }
+    addNum(a,b)
+    addNum(3,4)
+this is a example we take 
+now first all the code will execution happend in the golbal scope in this key word all the code execuate 
+after golbal scop execution will goes into the memory phase where all veriables name stored along with the 
+undefiend like 
+  a = undefiend 
+  b =undefiend 
+  but for the function it will be the different 
+  addNum = defination 
+  and same for addNum = undefiend 
+  then all the the code enters into the execuation phase 
+  where all the logics and the allocation of the values happend a assigned the 3 and b assigned 5 so far so on when
+   the code comes on the line 15 then it take to the addNum where the all the logic is alredy difiend and it will fill
+   the no and return the value to addNum same for down one also and so far so on and if the nested loops is there 
+   it will execuate the all loop till end and after execution all the stored values is deleted 
+             
+             
+              control flow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            1.veriable
+In javaScript we have three ways  to write the veriabls let,const,var 
+the differance between these three keywords is that the scop of the code and the 
+update for example let and const having block scope and the var having global scope means 
+if you want to update tha var you can update any where you want in the code 
+because of this we are facing to many issues for updating the code but in let key word
+you can update but you can't redefined the veriable and const you can't  update after 
+decliration and scope of this let and const veriable is block scope 
+            2.Data Type and Memoery Mangment 
+ In java Script we have 8 data type and divided into  two types 
+ 1.premative data type 
+ 2.non-premative data type 
+ -----------------------------------------------------------------------------------------------
+ 1.premative data type 
+  we have 7 types of preamative data type 
+  1.string (nothing but the words or the latter )
+  2.null (null is not initalize and the type of null is object)
+  3.undefiend (undefined is nothing but the not defined)
+  4.BigInt (BigInt is used to represent long number )
+  5.boolean(true and false)
+  6.number(the number is range of 0 to 2power of 53)
+  7.symbol(sybole is used full for the unique values)
+  -----------------------------------------------------------------------------------------------
+2.non-premative data type 
+ IN non-premative data type we have three types of 
+ 1.object 
+ 2.function
+ 3.array
+ this is non-premative data types in the java Script 
+ ------------------------------------------------------------------------------------------------------
+Memory mangment in the java script 
+As  we saw the data types in the javaScript and they are different from one main compnent like memory managment 
+in java script or in computer  we have two types to store data 
+1.Heap memory 
+2.stack memory 
+            
